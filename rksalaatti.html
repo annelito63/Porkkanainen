@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="fi">
+
+<head>
+
+  <title>Porkkanainen</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <meta name="author" content="Anneli">
+  <!-- lisää meta-elementtejä -->
+
+  <link href="tyyli.css" rel="stylesheet" type="text/css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rouge+Script&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script>
+    function navigation() {
+      var x = document.getElementById("topnav");
+      if (x.className === "navbar") {
+        x.className += " responsive";
+      } else {
+        x.className = "navbar";
+      }
+    }
+  </script>
+</head>
+
+
+<body>
+  <!-- tähän tulee sivun sisältö -->
+  <header>
+    <h1>
+      Porkkanainen<img src="tunnuskuva.png" alt="otsikko" class="logo">
+    </h1>
+    <nav id="topnav" class="navbar">
+      <ul>
+        <li><a href="index.html">Etusivu</a> </li>
+        <li><a href="reseptit.html">Reseptit</a></li>
+        <li><a href="minusta.html">Minusta</a></li>
+      </ul>
+    </nav>
+    <a href="javascript:void(0);" class="icon" onclick="navigation()">
+      <i class="fa fa-navicon"></i></a>
+
+  </header>
+
+  <main>
+    <img src="rksalaatti.png" alt="ruusukaalisalaatti" class="tuotekuva">
+
+    <h2>Ruusukaalisalaatti</h2>
+
+    <div class="flex_container">
+      <div class="flex_item">
+        <h3>Raaka-aineet</h3>
+        <ul class="raaka-aineet">
+          <li>400 g ruusukaalia </li>
+          <li>1 tlk kikherneitä</li>
+          <li>1 iso tomaatti</li>
+          <li>½ punasipuli</li>
+          <li>2 valkosipulinkynttä</li>
+          <li>saksanpähkinöitä</li>
+          <li>korianteria</li>
+          <li>persiljaa</li>
+          <li>granaattiomenan siemeniä</li>
+          <li>rypsiöljyä</li>
+          <li>suolaa</li>
+          <li>pippuria</li>
+        </ul>
+        <p>Kastike:</p>
+        <ul class="raaka-aineet">
+     
+          <li>1 tl sinappia </li>
+          <li>1 rkl sitruunamehua</li>
+          <li>2 rkl seesamiöljyä</li>
+          <li>1rkl chiliöljyä</li>
+          <li>1 rkl oliiviöljyä</li>
+          <li>½ tl juustokuminaa ja kanelia</li>
+          <li>suolaa ja pippuria </li>
+        </ul>
+
+      </div>
+
+      <div class="flex_item" id="ohjeet">
+        <h3>Ohjeet</h3>
+        <ul class="ohjeet">
+          <li>Suikaloi ruusukaali ohuiksi viipaleiksi, lisää hieman öljyä, 
+            suolaa ja pippuria ja paahda uunissa pellillä 200 asteessa 15–20 minuuttia. </li>
+
+          <li>Paahda kikherneet air fryerissa 180 asteessa noin kymmenen minuuttia tai kunnes ne ovat sopivan rapeita. 
+            Lisää maun mukaan suolaa ja pippuria.</li>
+
+          <li>Leikkaa tomaatti, punasipuli ja valkosipuli pieniksi, laita kulhoon ja sekoita. 
+            Laita samaan kulhoon paahtuneet kikherneet ja ruusukaali ja sekoita. </li>
+
+          <li>Valmista kastike sekoittamalla ainekset keskenään ja sekoita se salaattiin.</li>
+          <li>Viimeistele saksanpähkinöillä, granaattiomenalla, silputulla korianterilla ja persiljalla.
+          </li>
+        </ul>
+      </div>
+
+    </div>
+
+  </main>
+  <footer>
+    <img src="porkkana.png" alt="porkkana" class="alaporkkana">
+    <img src="porkkana.png" alt="porkkana" class="alaporkkana">
+    <img src="porkkana.png" alt="porkkana" class="alaporkkana">
+    <img src="porkkana.png" alt="porkkana" class="alaporkkana">
+  </footer>
+
+
+
+
+
+
+
+
+</body>
+
+</html>

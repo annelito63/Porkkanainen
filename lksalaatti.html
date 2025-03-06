@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="fi">
+
+<head>
+
+  <title>Porkkanainen</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <meta name="author" content="Anneli">
+  <!-- lisää meta-elementtejä -->
+
+  <link href="tyyli.css" rel="stylesheet" type="text/css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rouge+Script&display=swap" rel="stylesheet">
+ 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script>
+    function navigation() {
+      var x = document.getElementById("topnav");
+      if (x.className === "navbar") {
+        x.className += " responsive";
+      } else {
+        x.className = "navbar";
+      }
+    }
+  </script>
+</head>
+
+
+<body>
+  <!-- tähän tulee sivun sisältö -->
+  <header>
+    <h1>
+      Porkkanainen<img src="tunnuskuva.png" alt="otsikko" class="logo">
+    </h1>
+    <nav id="topnav" class="navbar">
+      <ul>
+        <li><a href="index.html">Etusivu</a> </li>
+        <li><a href="reseptit.html">Reseptit</a></li>
+        <li><a href="minusta.html">Minusta</a></li>
+      </ul>
+    </nav>
+    <a href="javascript:void(0);" class="icon" onclick="navigation()">
+      <i class="fa fa-navicon"></i></a>
+  </header>
+
+  <main>
+    <img src="lksalaatti.png" alt="lehtikaalisalaatti" class="tuotekuva">
+
+   
+    <h2>Lehtikaali-juuressalaatti</h2>
+  
+
+    <div class="flex_container">
+      <div class="flex_item">
+        <h3>Raaka-aineet</h3>
+        <ul class="raaka-aineet">
+          <li>100 g lehtikaalia </li>
+          <li>1 rkl rypsiöljyä</li>
+          <li>3 porkkanaa </li>
+          <li>puolikas pieni kukkakaali</li>
+          <li>1 tlk kikherneitä</li>
+          <li>saksanpähkinöitä</li>
+        </ul>
+        <p>Maustetahna:</p>
+        <ul class="raaka-aineet">
+          
+          <li>1 rkl gochujang-chilitahnaa</li>
+          <li>1 rkl tomaattipyreetä</li>
+          <li>1 rkl sitruunamehua</li>
+          <li> 1 tl tummaa sokeria</li>
+          <li>1 rkl rypsiöljyä</li>
+          <li>suolaa ja pippuria </li>
+        </ul>
+
+      </div>
+
+      <div class="flex_item" id="ohjeet">
+        <h3>Ohjeet</h3>
+        <ul class="ohjeet">
+          <li>Paahda kikherneet air fryerissa 180 asteessa noin kymmenen minuuttia tai kunnes ne ovat sopivan rapeita.
+            Lisää maun mukaan suolaa ja pippuria.</li>
+
+          <li>Leikkaa kukkakaali ja porkkana suupaloiksi. Paahda uunissa 200 asteessa n 15 min tai kunnes ne ovat lähes
+            kypsiä.</li>
+
+          <li>Sekoita maustetahnan ainekset keskenään ja lisää ne paahdettujen vihannesten joukkoon pellille. </li>
+
+          <li>Ota lehtiruodit pois lehtikaaleista ja revi lehdet muutamaan osaan. Hiero öljyä ja suolaa lehtikaalien
+            pintaan ja lisää ne pellille vihannesten päälle. Paahda vielä 5-10 min, kunnes lehtikaalit ovat rapeita
+            mutta
+            eivät palaneita.</li>
+          <li>Kokoa salaatti ja ripottele päälle saksanpähkinärouhetta.
+          </li>
+        </ul>
+      </div>
+
+    </div>
+
+  </main>
+  <footer>
+    <img src="porkkana.png" alt="porkkana" class="alaporkkana">
+    <img src="porkkana.png" alt="porkkana" class="alaporkkana">
+    <img src="porkkana.png" alt="porkkana" class="alaporkkana">
+    <img src="porkkana.png" alt="porkkana" class="alaporkkana">
+  </footer>
+
+
+
+
+
+
+
+
+</body>
+
+</html>
